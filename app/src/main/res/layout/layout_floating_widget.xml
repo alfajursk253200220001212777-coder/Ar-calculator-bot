@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#CC000000"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2nd &amp; 3rd Finder"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputBMW"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="BMW Bet"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA" />
+
+    <EditText
+        android:id="@+id/inputMB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="Mercedes Bet"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA" />
+
+    <EditText
+        android:id="@+id/inputJag"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="Jaguar Bet"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA" />
+
+    <EditText
+        android:id="@+id/inputLR"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="Land Rover Bet"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: -"
+        android:textColor="#00FF00"
+        android:textStyle="bold" />
+</LinearLayout>
